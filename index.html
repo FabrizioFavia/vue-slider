@@ -17,8 +17,8 @@
             <div class="slider-wrapper" tabindex="0">
 
                 <div class="item">
-                    <template v-for="(image, i) in slides">
-                        <img :src="image">
+                    <template v-for="(image, key, i) in slides">
+                        <img :src="image" alt="">
                     </template>
                     <div class="text">
                         <h3>Spiderman</h3>
